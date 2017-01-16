@@ -205,8 +205,6 @@ You can customize the generator's stub files/templates to achieve your need.
     ```
 3. From the directory **resources/laravel-generator/** you can modify or customize the stub files.
 
-#### If you're still looking for easier one then try this [Admin Panel](https://github.com/appzcoder/laravel-admin)
-
 ## Author
 
 [Pierre Silva](http://www.lab3studio.com)
