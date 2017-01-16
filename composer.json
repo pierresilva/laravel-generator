@@ -1,0 +1,19 @@
+{
+    "name": "pierresilva/laravel-generator",
+    "description": "Laravel 5 crud generator",
+    "type": "library",
+    "require": {
+        "php": "5.6.4"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Pierre Silva",
+        "email": "pierre.silva@lab3studio.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "pierresilva\\LaravelGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
