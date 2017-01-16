@@ -1,19 +1,34 @@
 {
     "name": "pierresilva/laravel-generator",
-    "description": "Laravel 5 crud generator",
-    "type": "library",
-    "require": {
-        "php": "5.6.4"
-    },
     "license": "MIT",
+    "description": "Laravel 5 CRUD Generator",
+    "keywords": [
+        "laravel",
+        "crud",
+        "generator",
+        "crud generator",
+        "laravel generator"
+    ],
     "authors": [{
         "name": "Pierre Silva",
-        "email": "pierre.silva@lab3studio.com"
+        "email": "pierre.silva@lab3studio.com",
+        "homepage": "http://www.lab3studio.com"
     }],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "^5.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.6",
+        "phpunit/phpunit": "^5.7",
+        "orchestra/testbench": "^3.3"
+    },
     "autoload": {
         "psr-4": {
             "pierresilva\\LaravelGenerator\\": "src/"
-        }
-    },
-    "minimum-stability": "dev"
+        },
+        "classmap": [
+            "tests"
+        ]
+    }
 }
