@@ -190,7 +190,7 @@ These fields are supported for migration and view's form:
 * enum
 
 
-### Custom Generator's Stub Template
+### Custom Generator's Stub Templates
 
 You can customize the generator's stub files/templates to achieve your need.
 
