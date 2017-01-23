@@ -1,6 +1,6 @@
 <?php
 
-namespace pierresilva\LaravelGenerator\Commands;
+namespace pierresilva\Generator\Commands;
 
 use File;
 use Illuminate\Console\Command;
@@ -171,12 +171,12 @@ class GenerateViewCommand extends Command
     {
         parent::__construct();
 
-        $this->viewDirectoryPath = config('laravelgenerator.custom_template')
-        ? config('laravelgenerator.path')
+        $this->viewDirectoryPath = config('generator.custom_template')
+        ? config('generator.path')
         : __DIR__ . '/../stubs/';
 
-        if (config('laravelgenerator.view_columns_number')) {
-            $this->defaultColumnsToShow = config('laravelgenerator.view_columns_number');
+        if (config('generator.view_columns_number')) {
+            $this->defaultColumnsToShow = config('generator.view_columns_number');
         }
     }
 

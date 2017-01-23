@@ -1,6 +1,6 @@
 <?php
 
-namespace pierresilva\LaravelGenerator\Commands;
+namespace pierresilva\Generator\Commands;
 
 use File;
 use Illuminate\Console\Command;

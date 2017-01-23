@@ -13,7 +13,7 @@ return [
     |
      */
 
-    'path' => base_path('resources/laravel-generator/'),
+    'path' => base_path('resources/generator/'),
 
     /**
      * Columns number to show in view's table.

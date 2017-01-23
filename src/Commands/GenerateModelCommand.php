@@ -1,6 +1,6 @@
 <?php
 
-namespace pierresilva\LaravelGenerator\Commands;
+namespace pierresilva\Generator\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 
@@ -39,8 +39,8 @@ class GenerateModelCommand extends GeneratorCommand
      */
     protected function getStub()
     {
-        return config('laravelgenerator.custom_template')
-        ? config('laravelgenerator.path') . '/model.stub'
+        return config('generator.custom_template')
+        ? config('generator.path') . '/model.stub'
         : __DIR__ . '/../stubs/model.stub';
     }
 
